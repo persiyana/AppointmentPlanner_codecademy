@@ -20,7 +20,7 @@ export const AppointmentForm = ({
   handleSubmit
 }) => {
   const contactNames = useMemo(() => {
-    return contacts.map((contact) => contact.name);
+    return contacts.map((contact) => contact.personName);
   }, [contacts]);
 
   return (
